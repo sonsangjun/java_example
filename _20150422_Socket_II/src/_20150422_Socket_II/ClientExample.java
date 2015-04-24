@@ -9,6 +9,7 @@ public class ClientExample {
 		System.out.println("사용자 진입.");
 		Scanner yourName = new Scanner(System.in);
 		String name = yourName.nextLine();
+		//
 		
 		try{
 			Socket socket = new Socket("192.168.0.3",9000);
